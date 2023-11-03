@@ -1,0 +1,35 @@
+.barDiv {
+    height: 100%;
+    width: 100%;
+}
+
+.movieDiv {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 4px;
+}
+
+.card {
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.barDiv > input {
+    width: 1100px;
+    text-align: center;   
+    padding: 8px; 
+    margin: 30px 0px 40px;
+    margin-left: 120px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.barDiv > .searchIcon {
+    padding-top: 60px;
+    margin-left: 20px;
+    font-size: 30px;
+}

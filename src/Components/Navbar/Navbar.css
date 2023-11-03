@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #45474B;
+    padding: 20px 0;
+}
+
+nav > h1 {
+    font-family: 'Lobster', sans-serif;
+    font-size: 35px;
+    color: yellow;
+    font-weight: 200;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+nav ul a {
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    font-size: 20px;
+    font-weight: 400;
+    background-color: yellow;
+    color: black;
+    padding: 4px 14px;
+    border-radius: 4px;
+    border: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.nav:focus {
+    color: yellow;
+}

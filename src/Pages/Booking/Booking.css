@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+.body {
+    background: url(https://external-preview.redd.it/zi0hPXxqeo-WgSRfj62ZsuCh_bun2aTsvTXcH6DhWj4.jpg?auto=webp&s=03d44cfbc46fb27017952eba07746a3a11229931);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 89vh;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.home {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 100%;
+}
+
+.home_title {
+    font-size: 25px;
+    font-weight: 500;
+    color: #FF2E63;
+    margin-bottom: 25px;
+    border-bottom:1px solid #e5e5e5;
+}
+
+.home_container {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_formContainer {
+    margin-top: 60px;
+    box-shadow: 1px 4px 12px -2px rgba(0, 0, 0, 0.43);
+    background-color: #45474B;
+    padding: 10px;
+    width: 400px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.home_formContainer input {
+    border: 1px solid #e5e5e5;
+    outline: none;
+    padding: 10px 10px;
+    width: 80%;
+    border-radius: 8px;
+    margin: 0;
+    background: transparent;
+    color: white;
+    font-size: 14px;
+}
+
+.home_formContainer input::placeholder {
+    color: #e5e5e5;
+}
+
+.home_formContainer input:disabled {
+    background-color: #e5e5e55a;
+}
+
+.home_formContainer button {
+    background: transparent;
+    border: 1px solid white;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.home_formContainer button:hover {
+    background-color: #FF2E63;
+    color: white;
+}
+
+.home_formContainer button:active {
+    transform: scale(0.98);
+}

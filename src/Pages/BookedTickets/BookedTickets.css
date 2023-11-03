@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+.users {
+    padding-bottom: 470px;
+    font-family: 'Poppins', sans-serif;
+    background: url(https://external-preview.redd.it/zi0hPXxqeo-WgSRfj62ZsuCh_bun2aTsvTXcH6DhWj4.jpg?auto=webp&s=03d44cfbc46fb27017952eba07746a3a11229931);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto; 
+    overflow: hidden;
+}
+
+.users_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.users_title {
+    color: yellow;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+.users_empty {
+    margin-top: 10px;
+    color: white;
+}
+
+.users_empty h3 > a {
+    color: #FF2E63;
+    border: 1px solid white;
+    background-color: #45474B;
+    padding: 8px 8px;
+    border-radius: 5px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 197px;
+}
+
+.users_empty h3 > a:active {
+    transform: scale(0.98);
+}
+
+.users_empty h3 > a:hover {
+    color: white;
+    background-color: #FF2E63;
+}
